@@ -3,6 +3,9 @@ language: node_js
 node_js:
     - "node"
     - "14"
+    - "12"
+    - "11"
+services: mongodb
 
 sudo: false
 
@@ -14,8 +17,3 @@ before_script:
 
 script:
     - npm test
-
-after_success:
-    - npm run report-coveralls
-    # - npm run report-codecov
-    
