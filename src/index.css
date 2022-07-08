@@ -1,0 +1,71 @@
+html {
+    background-color: #6d9773;
+}
+
+body {
+    margin: 0px;
+}
+
+/* TOOLBAR */
+.toolbar {
+    height: 150px;
+    background-color: #0c3a2d;
+    margin-top: -10px;
+    border-radius: 0 0 80px 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.toolbar form {
+    padding: 30px;
+}
+
+.log {
+    margin-left: 25px;
+    background-color: #FFB901;
+    border-radius:6px;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+    width: 60px;
+}
+
+.save {
+    background-color: #FFB901;
+    border-radius:6px;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+    width: 60px;
+}
+
+#nameDoc {
+    margin-right: 30px;
+}
+
+#idDoc {
+    margin-right: 30px;
+}
+
+label {
+    color: #FFB901;
+}
+
+
+/* DOCUMENTS */
+.documents {
+    margin: 20px auto auto;
+    text-align: center;
+    background-color: #0c3a2d;
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    color: #FFB901;
+}
+
+.indDoc {
+    color: #6d9773;
+    margin-top: 10px;
+}
