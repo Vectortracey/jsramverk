@@ -9,6 +9,8 @@ export default function Toolbar({ saveText, logText, emptyEditor }) {
                 <input type="text" id="nameDoc" />
                 <label> Dokumentets ID: </label>
                 <input type="text" disabled="disabled" id="idDoc" />
+                <label>Lägg till användare som ska få tillgång till texten: </label>
+                <input type="email" id="nameDoc" placeholder="example@examle.com" />
                 <input className="save" id="saveBtn" type="submit" value="Spara" />
             </form>
             <button className="log" onClick={logText}>Logga</button>
